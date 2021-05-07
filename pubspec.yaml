@@ -1,0 +1,26 @@
+name: pigeon_typechannel
+description: A new flutter plugin project.
+version: 0.0.1
+homepage:
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+  flutter: ">=1.20.0"
+
+dependencies:
+  reference: 0.3.0+1
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  pigeon:
+    path: ../packages/packages/pigeon
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: com.example.pigeon_typechannel
+        pluginClass: PigeonTypechannelPlugin
